@@ -1,0 +1,19 @@
+# Ignora archivos del sistema Mac 
+/back/.env
+
+# Ignora la carpeta node_modules
+back/node_modules/
+./back/node_modules/
+./front/node_modules
+front/.angular/
+./front/.angular/
+./graphQL/node_modules
+.graphQL/node_modules
+# Ignora todos los archivos de texto
+*.txt
+
+# Ignora los archivos relacionados a API keys
+.env
+
+# Ignora archivos de configuración SASS
+.sass-cache
